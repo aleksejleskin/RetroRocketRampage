@@ -1,0 +1,26 @@
+#Body	//FileName	//Mass	//Scale	//Yaw 	//Pitch //Roll	//FRW			//FLW			//BLW			//BRW			//LR		//RR		//SPOILER
+0	Tier1Body.sbs	900	1.5	1.5707	0	0	0.7 -0.5 1.250  	-0.7 -0.5 1.250 	1.250 -0.5 -2.250 	-1.250 -0.5 -2.250 	0.7 0.8 -2.0	-0.7 0.8 -2.0	0.0 1.5 -4.0
+0	Tier2Body.sbs	1000	1.5	1.5707	0	0	0.7 -0.5 1.250  	-0.7 -0.5 1.250 	1.250 -0.5 -2.250 	-1.250 -0.5 -2.250 	0.7 0.8 -2.0	-0.7 0.8 -2.0	0.0 1.5 -4.0
+0	Tier3Body.sbs	950	1.5	1.5707	0	0	0.7 -0.5 1.250  	-0.7 -0.5 1.250 	1.250 -0.5 -2.250 	-1.250 -0.5 -2.250 	0.7 0.8 -2.0	-0.7 0.8 -2.0	0.0 1.5 -4.0
+0	Tier4Body.sbs	1050	1.5	1.5707	0	0	0.7 -0.5 1.250  	-0.7 -0.5 1.250 	1.250 -0.5 -2.250 	-1.250 -0.5 -2.250 	0.7 0.8 -2.0	-0.7 0.8 -2.0	0.0 1.5 -4.0
+
+#FWheel	//FileName	//Mass	//Scale	//Yaw 	//Pitch //Roll
+1	Tier1Wheel.sbs	50	1.5	1.5707	0	0
+1	w1.sbs		50	0.02	1.5707	0	0
+
+#BWheel	//FileName	//Mass	//Scale	//Yaw 	//Pitch //Roll
+2	Tier1Wheel.sbs	50	1.5	1.5707	0	0
+2	w1.sbs		50	0.02	1.5707	0	0
+
+#Retro	//FileName	//Mass	//Scale	//Yaw	//Pitch	//Roll //EngineForce
+3	Tier1Retro.sbs	50	1	0	1.5707	0	2100
+3	Tier2Retro.sbs	50	1	0	1.5707	0	2100
+3	Tier3Retro.sbs	50	1	0	1.5707	0	2100
+3	Tier3Retro.sbs	50	1	0	1.5707	0	2100
+
+#Spoiler//FileName		//Mass	//Scale	//Yaw	//Pitch	//Roll
+4	Tier1Spoiler.sbs	50	1	0	1.5707	0
+4	Tier2Spoiler.sbs	50	1	0	1.5707	0
+4	Tier3Spoiler.sbs	50	1	0	1.5707	0
+
+#END
